@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// Cambia la importación de App a LoginRegister
+//import LoginRegister from './LoginRegister';
 import reportWebVitals from './reportWebVitals';
+import App from './App.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    {/* Cambia <App /> por <LoginRegister /> */}
     <App />
   </React.StrictMode>
 );

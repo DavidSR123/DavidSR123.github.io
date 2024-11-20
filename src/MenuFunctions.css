@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Arial', sans-serif;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.navLateral {
+  position: relative; /* Cambiado de fixed para poder trabajar con el layout de flexbox */
+  width: 15%;
+  height: 100vh;
+  background-color: #333;
+  color: white;
+}
+
+.navLateral-bg {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navLateral-body {
+  padding: 50px;
+}
+
+.navLateral-body-logo {
+  font-size: 24px;
+  text-align: center;
+}
+
+.navLateral-body-tittle-menu {
+  margin-top: 20px;
+}
+
+.img-responsive {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.navLateral-body-cl,
+.navLateral-body-cr {
+  padding: 10px;
+}
+
+.menu-principal {
+  list-style: none;
+}
+
+.menu-principal > li {
+  margin-bottom: 5px;
+}
+
+.divider-menu-h {
+  border-bottom: 1px solid white;
+  margin: 10px 0;
+}
+
+.btn-subMenu span {
+  float: right;
+  transition: transform 0.3s;
+}
+
+.btn-subMenu span.zmdi-chevron-left {
+  transform: rotate(0deg);
+}
+
+.btn-subMenu.active span.zmdi-chevron-left {
+  transform: rotate(-90deg);
+}
+
+.main-content {
+  padding: 20px; /* Espacio alrededor del contenido principal */
+  flex-grow: 1; /* Para que ocupe el resto del espacio */
+  background-color: #f5f5f5; /* Fondo claro para el contenido principal */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Altura total de la ventana */
+}
+
+/* Nueva sección de la barra superior */
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 5px;
+  height: 60px;
+}
+
+.btn-hide-menu {
+  background-color: #555;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn-hide-menu:hover {
+  background-color: #444;
+}
+
+.user-name {
+  font-size: 18px;
+  margin-right: 10px; /* Espacio a la derecha para que no se pegue al borde */
+}
+
+.content-wrapper {
+  display: flex;
+}
+
+.btn-logout {
+  background-color: #555;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+/* Nueva sección de "Inicio" */
+.menu-title {
+  margin-left: 20px;
+  font-size: 24px;
+  color: white;
+}
+
+.header-white-section {
+  background-color: white;
+  height: 60px; /* Ajusta según sea necesario */
+  width: 20%; /* Ancho coordinado con el menú lateral */
+}
+
+.welcome-text {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+body {
+  background-image: none !important; /* Esto asegurará que no haya imagen de fondo */
+  background-color: #f5f5f5; /* Color de fondo neutro */
+}
+
+.button-style {
+  background-color: #555;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: 'Arial', sans-serif; /* Cambiado de 'Roboto' */
+  transition: background-color 0.3s ease;
+}
+
+.button-style:hover {
+  background-color: #444;
+}
+
+.navLateral-body a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  font-family: 'Arial', sans-serif; /* Cambiado de 'Roboto' */
+  color: white; /* Color blanco */
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.navLateral-body a:hover {
+  background-color: #444; /* Cambio de color al pasar el ratón */
+}
+
+/* Ajusta iconos si es necesario */
+.navLateral-body-cl i {
+  color: white;
+}
+
+.btn-subMenu,
+.menu-principal a {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centrado horizontal */
+  padding: 10px; /* Espacio uniforme */
+  color: white; /* Color blanco */
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-subMenu:hover,
+.menu-principal a:hover {
+  background-color: #444; /* Color al pasar el ratón */
+}
+
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 5px;
+  width: 100%;
+  height: 60px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Espacio entre el texto y el botón */
+}

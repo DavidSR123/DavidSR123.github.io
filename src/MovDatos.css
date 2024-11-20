@@ -1,0 +1,95 @@
+/* General styles */
+.full-width {
+    width: 100%;
+  }
+  
+  .header-well {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .header-well-icon i {
+    font-size: 48px;
+  }
+  
+  .header-well-text {
+    margin-top: 20px;
+  }
+  
+  .divider-menu-h {
+    border-bottom: 2px solid #e0e0e0;
+    margin: 20px 0;
+  }
+  
+  /* Panel styles */
+  .panel {
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .panel-title {
+    background-color: #c5351b;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+  }
+  
+  .panel-content {
+    padding: 20px;
+  }
+  
+  /* Form styles */
+  .mdl-textfield {
+    width: 100%;
+  }
+  
+  .mdl-textfield__input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .mdl-textfield__label {
+    font-size: 16px;
+    color: #757575;
+  }
+  
+  .mdl-button--fab {
+    background-color: #c5351b;
+    color: white;
+    padding: 5px;
+  }
+  
+  /* Tooltip */
+  .mdl-tooltip {
+    position: absolute;
+    background-color: #333;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+  }
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .form-row .mdl-textfield {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .form-row .mdl-textfield:last-child {
+    margin-right: 0;
+  }
+
+  .map-container {
+    width: 100%;
+    height: 400px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  .mdl-textfield__input {
+    margin-bottom: 10px;
+  }

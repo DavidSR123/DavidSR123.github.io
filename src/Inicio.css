@@ -1,0 +1,55 @@
+.inicio-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #1f1d1d; /* Color de fondo */
+    padding: 20px;
+  }
+  
+  .inicio-header {
+    background-color: #c5351b; /* Color del encabezado */
+    padding: 20px;
+    color: white;
+  }
+  
+  .inicio-nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  .inicio-banner {
+    background-image: url('/images/bg5.jpg'); /* Imagen de fondo */
+    height: 300px; /* Altura del banner */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-size: cover;
+  }
+  
+  .inicio-button {
+    background-color: #c5351b; /* Color del botón */
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .inicio-description {
+    color: white;
+    margin: 70px 0;
+    line-height: 1.9;
+  }
+  
+  .inicio-footer {
+    background-color: #383a3d; /* Color del pie de página */
+    color: white;
+    padding: 10px;
+  }
+  
+  .social-links a {
+    color: white;
+    margin: 0 10px;
+  }
